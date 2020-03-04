@@ -1,0 +1,114 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviDevice",
+			"hiddenComponent": true,
+			"id": "8ccc-7b4c-1d6a-cbdd",
+			"initialized": true,
+			"props": {
+				"children": [
+					"0b79-c63e-9edc-8a25",
+					"5622-e1d4-a983-963b",
+					"794e-4a50-7428-b9b0"
+				],
+				"name": "lviDevice",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .lviDevice-image",
+			"id": "0b79-c63e-9edc-8a25",
+			"props": {
+				"children": [],
+				"name": "imgUser",
+				"parent": "8ccc-7b4c-1d6a-cbdd",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "5622-e1d4-a983-963b",
+			"props": {
+				"children": [
+					"1dcd-f673-1d10-e50e",
+					"b4b3-1ebb-c1b3-d77b"
+				],
+				"name": "flWrapper",
+				"parent": "8ccc-7b4c-1d6a-cbdd"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexDirection": "ROW"
+				}
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .lviDevice-title",
+			"id": "1dcd-f673-1d10-e50e",
+			"props": {
+				"autoWidth": 53.85,
+				"children": [],
+				"name": "lblTitle",
+				"parent": "5622-e1d4-a983-963b",
+				"text": "Telefon",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoWidth": 53.85,
+				"text": "Telefon",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .lviDevice-arrow",
+			"id": "b4b3-1ebb-c1b3-d77b",
+			"props": {
+				"children": [],
+				"name": "imgArrow",
+				"parent": "5622-e1d4-a983-963b"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .separator",
+			"id": "794e-4a50-7428-b9b0",
+			"props": {
+				"children": [],
+				"name": "flSeparator",
+				"parent": "8ccc-7b4c-1d6a-cbdd",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

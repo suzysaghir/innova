@@ -1,0 +1,44 @@
+{
+	".imageView": {
+		"&-ailemininternetilogo": {
+			"width": 159,
+			"height": 63,
+			"image": "ailemininternetilogo.png",
+			"imageFillType": "ASPECTFIT",
+			"flexProps": {
+				"alignSelf": "CENTER"
+			},
+			"&-margin": {
+				"marginTop": 50
+			},
+			".margin": {
+				"marginTop": 72,
+				"marginBottom": 40
+			}
+		},
+		"&-ttlogo": {
+			"image": "turktelekomlogo.png",
+			"width": 200,
+			"height": 25,
+			"imageFillType": "ASPECTFIT",
+			"flexProps": {
+				"alignSelf": "CENTER"
+			}
+		},
+		"&-familybg": {
+			"image": "background.png",
+			"imageFillType": "ASPECTFILL"
+		},
+		"&-infoicon": {
+			"width": 22,
+			"height": 22,
+			"left": 22,
+			"top": 22,
+			"image": "icon_info.png",
+			"imageFillType": "ASPECTFIT",
+			"flexProps": {
+				"positionType": "ABSOLUTE"
+			}
+		}
+	}
+}

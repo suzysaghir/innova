@@ -1,0 +1,65 @@
+{
+	"#pgAccounts": {
+		"&-gradient": {
+			"&-page": {
+				"backgroundColor": {
+					"startColor": "rgba(9,54,102,0)",
+					"endColor": "rgba(6,46,84,1)",
+					"direction": "VERTICAL"
+				}
+			},
+			"&-layout": {
+				"paddingLeft": 17,
+				"paddingRight": 17,
+				"backgroundColor": {
+					"startColor": "rgba(54,245,255,0.6)",
+					"endColor": "rgba(37,224,234,0)",
+					"direction": "VERTICAL"
+				}
+			}
+		},
+		"&-lviItem": {
+			"flexProps": {
+				"flexDirection": "ROW"
+			},
+			"backgroundColor": "rgba( 25, 206, 216, 1 )",
+			"borderRadius": 10,
+			"height": 75,
+			"&-title": {
+				"height": 19,
+				"textColor": "rgba(255,255,255,1)"
+			},
+			"&-description": {
+				"height": 19,
+				"textColor": "rgba( 184, 252, 255, 1 )"
+			}
+		},
+		"&-lvi": {
+			"&-arrow": {
+				"width": 35,
+				"height": null,
+				"right": 0,
+				"top": 0,
+				"bottom": 0,
+				"flexProps": {
+					"alignContent": "CENTER",
+					"alignItems": "CENTER",
+					"justifyContent": "CENTER"
+				}
+			}
+		},
+		"&-chooselbl": {
+			"textColor": "rgba( 13, 72, 108, 1 )",
+			"textAlignment": "MIDCENTER",
+			"font": {
+				"size": 15,
+				"bold": false,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Medium"
+			},
+			"height": 39,
+			"marginTop": 9
+		}
+	}
+}

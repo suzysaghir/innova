@@ -1,0 +1,9 @@
+{
+	"#pgLogin": {
+		"&-wrapper": {
+			"paddingRight": 17,
+			"paddingLeft": 17,
+			"height": 350
+		}
+	}
+}

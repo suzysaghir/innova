@@ -1,0 +1,23 @@
+{
+	"#pgTimeLimitConfiguration": {
+		"backgroundColor": "rgba( 235, 239, 242, 1 )",
+		"&-lvWeek": {
+			"backgroundColor": "rgba(255,255,255,1)",
+			"borderRadius": 10,
+			"marginBottom": 20
+		},
+		"&-flTopLabel": {
+			"height": 107
+		},
+		"&-labelTop": {
+			"textColor": "rgba( 188, 198, 207, 1 )",
+			"maxLines": 0,
+			"textAlignment": "MIDCENTER",
+			"font": {
+				"size": 15
+			}
+		},
+		"paddingRight": 18,
+		"paddingLeft": 18
+	}
+}

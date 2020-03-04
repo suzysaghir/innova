@@ -1,0 +1,40 @@
+{
+	".lviDevice": {
+		"height": 75,
+		"flexProps": {
+			"flexDirection": "ROW",
+			"justifyContent": "FLEX_END"
+		},
+		"&-image": {
+			"borderRadius": 20,
+			"height": 40,
+			"image": "icon_defaultphoto.png",
+			"width": 40,
+			"marginLeft": 20,
+			"marginRight": 17,
+			"flexProps": {
+				"alignSelf": "CENTER"
+			},
+			"imageFillType": "ASPECTFIT"
+		},
+		"&-title": {
+			"textColor": "rgba( 25, 206, 216, 1 )",
+			"font": {
+				"size": 17,
+				"bold": true,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Semibold"
+			}
+		},
+		"&-arrow": {
+			"width": 9,
+			"height": 16,
+			"marginRight": 14,
+			"image": "arrowright_gray.png",
+			"flexProps": {
+				"alignSelf": "CENTER"
+			}
+		}
+	}
+}

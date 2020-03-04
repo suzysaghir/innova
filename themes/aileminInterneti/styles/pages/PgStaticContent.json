@@ -1,0 +1,27 @@
+{
+	"#pgStaticContent": {
+		"paddingLeft": 20,
+		"paddingRight": 20,
+		"&-title": {
+			"textColor": "rgba( 25, 206, 216, 1 )",
+			"font": {
+				"size": 18,
+				"bold": true,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Semibold"
+			},
+			"height": 60
+		},
+		"&-detail": {
+			"textColor": "rgba( 101, 101, 101, 1 )",
+			"font": {
+				"size": 15,
+				"bold": false,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Medium"
+			}
+		}
+	}
+}

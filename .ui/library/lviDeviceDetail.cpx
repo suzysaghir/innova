@@ -1,0 +1,121 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviDeviceDetail",
+			"hiddenComponent": true,
+			"id": "4dfc-2ee6-18a2-939d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"1ae4-71d1-fca5-75f8"
+				],
+				"name": "lviDeviceDetail",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {},
+				"left": 24.5,
+				"top": 72.5
+			}
+		},
+		{
+			"className": ".flexLayout .lviDeviceDetail-flMain",
+			"hiddenComponent": false,
+			"id": "1ae4-71d1-fca5-75f8",
+			"props": {
+				"children": [
+					"6601-18b0-b20c-605f",
+					"bcc3-fd06-f5d0-d87e",
+					"412e-c7d7-5cab-4068"
+				],
+				"name": "flMain",
+				"parent": "4dfc-2ee6-18a2-939d",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .lviDeviceDetail-flMain-flLabel-imgLabel",
+			"id": "6601-18b0-b20c-605f",
+			"props": {
+				"children": [],
+				"name": "imgLabel",
+				"parent": "1ae4-71d1-fca5-75f8",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".label .lviDeviceDetail-flMain-flLabel-lblSetting",
+			"id": "bcc3-fd06-f5d0-d87e",
+			"props": {
+				"autoHeight": 19.5,
+				"autoWidth": 142.8984375,
+				"children": [],
+				"name": "lblSetting",
+				"parent": "1ae4-71d1-fca5-75f8",
+				"text": "  Uygulama Ayarlari",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 19.5,
+				"autoWidth": 142.8984375,
+				"text": "  Uygulama Ayarlari",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviDeviceDetail-flArrow",
+			"id": "412e-c7d7-5cab-4068",
+			"props": {
+				"children": [
+					"6969-2af7-dd82-ffd1"
+				],
+				"name": "flArrow",
+				"parent": "1ae4-71d1-fca5-75f8"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .lviDeviceDetail-imgArrow",
+			"id": "6969-2af7-dd82-ffd1",
+			"props": {
+				"children": [],
+				"name": "imgArrow",
+				"parent": "412e-c7d7-5cab-4068",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

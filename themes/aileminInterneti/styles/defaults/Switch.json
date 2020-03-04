@@ -1,0 +1,13 @@
+{
+	".switch": {
+		"&-overLayout": {
+			"right": 12,
+			"width": 52,
+			"minWidth": 52,
+			"height": 31,
+			"flexProps": {
+				"positionType": "ABSOLUTE"
+			}
+		}
+	}
+}

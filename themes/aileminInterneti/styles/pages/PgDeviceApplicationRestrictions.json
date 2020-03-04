@@ -1,0 +1,41 @@
+{
+	"#pgDeviceApplicationRestrictions": {
+		"backgroundColor": "rgba( 235, 239, 242, 1 )",
+		"flexProps": {
+			"justifyContent": "SPACE_BETWEEN"
+		},
+		"&-svMain": {
+			"flexProps": {},
+			"&-lblInfo": {
+				"flexProps": {
+					"alignSelf": "CENTER"
+				},
+				"font": {
+					"family": "SFProText",
+					"style": "Medium",
+					"bold": false,
+					"italic": false,
+					"size": 16
+				},
+				"height": null,
+				"maxLines": 0,
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 188, 198, 207, 1 )",
+				"width": null,
+				"marginTop": 27,
+				"marginBottom": 27,
+				"marginLeft": 18,
+				"marginRight": 18
+			},
+			"&-lvApplications": {
+				"backgroundColor": "rgba(255,255,255,1)",
+				"borderRadius": 10,
+				"height": 0,
+				"marginLeft": 18,
+				"marginRight": 18,
+				"marginBottom": 18,
+				"width": null
+			}
+		}
+	}
+}

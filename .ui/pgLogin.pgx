@@ -1,0 +1,241 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "1740-6a23-4771-dee3",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a67b-5303-c508-5c61",
+					"c79f-e04a-335a-5916",
+					"8553-ed81-f2fb-2c7c",
+					"fd65-9ced-0d26-7dc0",
+					"635f-455f-f361-6c7a",
+					"d12c-9008-30da-f50f"
+				],
+				"name": "pgLogin",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_AROUND"
+				},
+				"paddingBottom": 20,
+				"paddingTop": 40
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": " .sf-statusBar",
+			"id": "a67b-5303-c508-5c61",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "1740-6a23-4771-dee3"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"android": {
+					"color": "rgba( 16, 50, 93, 1 )"
+				}
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "c79f-e04a-335a-5916",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "1740-6a23-4771-dee3",
+				"title": "pgLogin"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgLogin",
+				"visible": false
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-absoulte",
+			"id": "8553-ed81-f2fb-2c7c",
+			"props": {
+				"children": [],
+				"name": "imgBackground",
+				"parent": "1740-6a23-4771-dee3"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"image": "background.png",
+				"imageFillType": "ASPECTFILL"
+			}
+		},
+		{
+			"className": ".sf-imageView .imageView-ailemininternetilogo",
+			"id": "fd65-9ced-0d26-7dc0",
+			"props": {
+				"children": [],
+				"name": "imgLogo",
+				"parent": "1740-6a23-4771-dee3",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgLogin-wrapper",
+			"id": "635f-455f-f361-6c7a",
+			"props": {
+				"children": [
+					"c458-82c9-476c-dc5e",
+					"603b-81c6-5a98-b89d",
+					"2b34-12f3-071d-a5d0",
+					"7a55-2ca0-c79c-5c8d",
+					"1c38-6da7-d805-2153"
+				],
+				"name": "flWrapper",
+				"parent": "1740-6a23-4771-dee3"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "c458-82c9-476c-dc5e",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbUsername",
+				"parent": "635f-455f-f361-6c7a",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__modules__",
+				"moduleName": "Materialtextbox",
+				"modulePath": "materialtextbox",
+				"type": "Materialtextbox",
+				"id": "8fb2-10a8-12e4-9b45"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "603b-81c6-5a98-b89d",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbPassword",
+				"parent": "635f-455f-f361-6c7a",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__modules__",
+				"moduleName": "Materialtextbox",
+				"modulePath": "materialtextbox",
+				"type": "Materialtextbox",
+				"id": "8fb2-10a8-12e4-9b45"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .button-action",
+			"hiddenComponent": false,
+			"id": "2b34-12f3-071d-a5d0",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "btnLogin",
+				"parent": "635f-455f-f361-6c7a",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flButtonWithIndicator",
+				"id": "25c2-4219-20c3-6888"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button .button-action.transparent",
+			"id": "7a55-2ca0-c79c-5c8d",
+			"props": {
+				"autoHeight": 23.4375,
+				"children": [],
+				"name": "btnForgotPassword",
+				"parent": "635f-455f-f361-6c7a",
+				"text": "Şifremi Unuttum",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 23.4375,
+				"text": "Şifremi Unuttum",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button .button-action.transparent.white",
+			"id": "1c38-6da7-d805-2153",
+			"props": {
+				"autoHeight": 20.588235294117645,
+				"children": [],
+				"name": "btnBuy",
+				"parent": "635f-455f-f361-6c7a",
+				"text": "Satin Al",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 20.588235294117645,
+				"text": "Satin Al",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .imageView-ttlogo",
+			"id": "d12c-9008-30da-f50f",
+			"props": {
+				"autoHeight": 16.39344262295082,
+				"children": [],
+				"name": "imgTTLogo",
+				"parent": "1740-6a23-4771-dee3"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 16.39344262295082
+			}
+		}
+	]
+}

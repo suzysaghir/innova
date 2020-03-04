@@ -1,0 +1,101 @@
+{
+	".grow": {
+		"&-absoulte": {
+			"flexProps": {
+				"positionType": "ABSOLUTE"
+			},
+			"top": 0,
+			"right": 0,
+			"left": 0,
+			"bottom": 0,
+			"height": null
+		},
+		"&-relative": {
+			"flexProps": {
+				"flexGrow": 1,
+				"positionType": "RELATIVE"
+			},
+			"width": null,
+			"height": null
+		}
+	},
+	".shadow": {
+		"android": {
+			"elevation": 1
+		},
+		"ios": {
+			"shadowOffset": {
+				"x": 1,
+				"y": 1
+			},
+			"shadowOpacity": 0.05,
+			"shadowRadius": 10
+		}
+	},
+	".separator": {
+		"width": null,
+		"height": 1,
+		"bottom": 0,
+		"right": 0,
+		"left": 20,
+		"backgroundColor": "rgba( 188, 198, 207, 0.22 )",
+		"flexProps": {
+			"positionType": "ABSOLUTE"
+		}
+	},
+	".flButtonWithIndicator": {
+		"backgroundColor": "#02CED8",
+		"height": 50,
+		"&-wrapper": {
+			"right": 0,
+			"top": 0,
+			"bottom": 0,
+			"height": null,
+			"width": 50,
+			"flexProps": {
+				"positionType": "ABSOLUTE",
+				"justifyContent": "CENTER"
+			}
+		},
+		"&-indicator": {
+			"flexProps": {},
+			"width": 30,
+			"height": 30
+		},
+		"&-label": {
+			"textColor": "rgba( 255, 255, 255, 1 )",
+			"textAlignment": "MIDCENTER",
+			"font": {
+				"size": 18,
+				"bold": true,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Semibold"
+			}
+		}
+	},
+	".statusBarAccounts": {
+		"android": {
+			"color": "rgba( 16, 50, 93, 1 )"
+		}
+	},
+	".imgInfo": {
+		"image": "icon_info.png",
+		"height": 25,
+		"width": 25,
+		"top": 5,
+		"left": 0,
+		"flexProps": {
+			"alignSelf": "CENTER"
+		}
+	},
+	".flInfoWrapper": {
+		"height": 40,
+		"left": 10,
+		"top": 10,
+		"width": 40,
+		"flexProps": {
+			"positionType": "ABSOLUTE"
+		}
+	}
+}

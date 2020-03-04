@@ -1,0 +1,92 @@
+{
+	".lviUser": {
+		"flexProps": {},
+		"height": 180,
+		"backgroundColor": "rgba(255,255,255,1)",
+		"&-flEdit": {
+			"height": 18,
+			"width": 18,
+			"flexProps": {
+				"positionType": "ABSOLUTE"
+			},
+			"top": 21,
+			"right": 21,
+			"&-imgEdit": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"image": "icon_edit.png",
+				"imageFillType": "ASPECTFIT"
+			}
+		},
+		"&-flDelete": {
+			"flexProps": {
+				"positionType": "ABSOLUTE"
+			},
+			"height": 23,
+			"width": 20,
+			"top": 21,
+			"left": 23,
+			"&-imgTrash": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"image": "icon_trash.png",
+				"imageFillType": "ASPECTFIT"
+			}
+		},
+		"&-flMain": {
+			"flexProps": {
+				"flexGrow": 1,
+				"flexDirection": "COLUMN",
+				"alignItems": "CENTER"
+			},
+			"&-flProfile": {
+				"height": 90,
+				"marginTop": 21
+			},
+			"&-imgProfile": {
+				"height": 90,
+				"width": 90,
+				"borderRadius": 45,
+				"marginTop": 21,
+				"image": "icon_defaultphoto.png",
+				"imageFillType": "ASPECTFIT"
+			},
+			"marginTop": null,
+			"&-lblDeviceName": {
+				"font": {
+					"family": "SFProText",
+					"style": "Semibold",
+					"bold": true,
+					"italic": false,
+					"size": 18
+				},
+				"height": null,
+				"textColor": "rgba( 25, 206, 216, 1 )",
+				"marginTop": 8,
+				"width": null,
+				"flexProps": {
+					"alignSelf": "STRETCH"
+				},
+				"textAlignment": "MIDCENTER"
+			},
+			"&-lblMac": {
+				"font": {
+					"family": "SFProText",
+					"style": "Medium",
+					"bold": false,
+					"italic": false,
+					"size": 15
+				},
+				"textColor": "rgba( 188, 198, 207, 1 )",
+				"height": null,
+				"marginTop": 5,
+				"flexProps": {
+					"alignSelf": "STRETCH"
+				},
+				"textAlignment": "MIDCENTER"
+			}
+		}
+	}
+}

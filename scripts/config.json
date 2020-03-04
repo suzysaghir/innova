@@ -1,0 +1,7 @@
+{
+    "BASE_URL": "http://95.0.189.8:12000/smartface",
+    "useMockService": false,
+    "buyAppLink": "https://www.turktelekomguvenlik.com/",
+    "forgotPasswordLink": "https://www.turktelekomguvenlik.com/",
+    "MAX_CHARACTERS_OF_FEEDBACK": 500
+}

@@ -1,0 +1,119 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgDeviceApplicationRestrictions",
+			"id": "107b-ab69-497a-7955",
+			"initialized": true,
+			"props": {
+				"children": [
+					"76c9-eb7f-30cf-4ee1",
+					"85a0-61de-bd4f-93a0",
+					"ac4f-7bd4-fc5b-2deb"
+				],
+				"name": "pgDeviceApplicationRestrictions",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "76c9-eb7f-30cf-4ee1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "107b-ab69-497a-7955"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "85a0-61de-bd4f-93a0",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "107b-ab69-497a-7955"
+			},
+			"type": "HeaderBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-scrollView .grow-relative",
+			"id": "ac4f-7bd4-fc5b-2deb",
+			"props": {
+				"autoSizeEnabled": true,
+				"children": [
+					"8194-bc87-d7c8-1c1a",
+					"fb6d-8b79-7159-4995"
+				],
+				"name": "svMain",
+				"parent": "107b-ab69-497a-7955",
+				"usePageVariable": true
+			},
+			"type": "ScrollView",
+			"userProps": {
+				"autoSizeEnabled": true,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label #pgDeviceApplicationRestrictions-svMain-lblInfo",
+			"id": "8194-bc87-d7c8-1c1a",
+			"props": {
+				"autoHeight": 38,
+				"autoWidth": 384,
+				"children": [],
+				"name": "lblInfo",
+				"parent": "ac4f-7bd4-fc5b-2deb",
+				"text": "\"Oğlumun Telefonu\" adlı cihazın erşimini engellemek istediğiniz uygulamaları seçiniz",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 38,
+				"autoWidth": 384,
+				"text": "\"Oğlumun Telefonu\" adlı cihazın erşimini engellemek istediğiniz uygulamaları seçiniz",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listView #pgDeviceApplicationRestrictions-svMain-lvApplications",
+			"id": "fb6d-8b79-7159-4995",
+			"props": {
+				"children": [
+					"d2d9-b044-2056-5891"
+				],
+				"name": "lvApplications",
+				"parent": "ac4f-7bd4-fc5b-2deb",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listViewItem .lviApplication",
+			"hiddenComponent": false,
+			"id": "d2d9-b044-2056-5891",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "lviApplication",
+				"parent": "fb6d-8b79-7159-4995"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviApplication",
+				"id": "7e3c-8a19-cd1b-1d92"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		}
+	]
+}

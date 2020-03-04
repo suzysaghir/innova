@@ -1,0 +1,11 @@
+{
+	"#pgDevice": {
+		"backgroundColor": "rgba( 235, 239, 242, 1 )",
+		"&-lvMain": {
+			"contentInset": {
+				"bottom": 16,
+				"top": 0
+			}
+		}
+	}
+}

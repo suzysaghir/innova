@@ -1,0 +1,82 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flButtonWithIndicator",
+			"hiddenComponent": true,
+			"id": "25c2-4219-20c3-6888",
+			"initialized": true,
+			"props": {
+				"children": [
+					"ae66-31e1-09ce-90c6",
+					"352e-bc2b-b5b4-49c4"
+				],
+				"name": "flButtonWithIndicator",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 31.273043673971422,
+				"top": 334.7826086956522
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flButtonWithIndicator-wrapper",
+			"id": "ae66-31e1-09ce-90c6",
+			"props": {
+				"children": [
+					"4532-ae17-558c-e09b"
+				],
+				"name": "flWrapper",
+				"parent": "25c2-4219-20c3-6888"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-activityIndicator .flButtonWithIndicator-indicator",
+			"id": "4532-ae17-558c-e09b",
+			"props": {
+				"children": [],
+				"name": "indicator",
+				"parent": "ae66-31e1-09ce-90c6",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {
+				"usePageVariable": true,
+				"visible": false
+			}
+		},
+		{
+			"className": ".sf-label .flButtonWithIndicator-label",
+			"id": "352e-bc2b-b5b4-49c4",
+			"props": {
+				"autoHeight": 20.5,
+				"children": [],
+				"name": "lblText",
+				"parent": "25c2-4219-20c3-6888",
+				"text": "Giriş Yap",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.5,
+				"text": "Giriş Yap",
+				"usePageVariable": true
+			}
+		}
+	]
+}

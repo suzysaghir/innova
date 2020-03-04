@@ -1,0 +1,82 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flInternetPlayPause .shadow",
+			"hiddenComponent": true,
+			"id": "bd30-7e49-ebd8-496f",
+			"initialized": true,
+			"props": {
+				"children": [
+					"09b4-1540-ae2e-6990"
+				],
+				"name": "flInternetPlayPause",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flInternetPlayPause-flMain .flInternetPlayPause-flMain-enable",
+			"id": "09b4-1540-ae2e-6990",
+			"props": {
+				"children": [
+					"55b3-047a-f825-3e26",
+					"3f3b-7846-33dc-0094"
+				],
+				"name": "flMain",
+				"parent": "bd30-7e49-ebd8-496f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .flInternetPlayPause-flMain-enable-imgIcon",
+			"id": "55b3-047a-f825-3e26",
+			"props": {
+				"children": [],
+				"name": "imgIcon",
+				"parent": "09b4-1540-ae2e-6990",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flInternetPlayPause-lblMain",
+			"id": "3f3b-7846-33dc-0094",
+			"props": {
+				"autoHeight": 19.29824561403509,
+				"autoWidth": 254.24890350877195,
+				"children": [],
+				"name": "lblMain",
+				"parent": "09b4-1540-ae2e-6990",
+				"text": "İnterneti tüm cihazlar için başlat",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 19.29824561403509,
+				"autoWidth": 254.24890350877195,
+				"text": "İnterneti tüm cihazlar için başlat",
+				"usePageVariable": true
+			}
+		}
+	]
+}

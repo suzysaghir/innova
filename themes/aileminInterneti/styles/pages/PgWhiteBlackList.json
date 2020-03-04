@@ -1,0 +1,16 @@
+{
+	"#pgWhiteBlackList": {
+		"backgroundColor": "rgba( 235, 239, 242, 1 )",
+		"paddingLeft": 18,
+		"paddingRight": 18,
+		"paddingTop": 24,
+		"&-lvWebsites": {
+			"backgroundColor": "rgba(255,255,255,1)",
+			"borderRadius": 10,
+			"contentInset": {
+				"bottom": 16,
+				"top": 0
+			}
+		}
+	}
+}

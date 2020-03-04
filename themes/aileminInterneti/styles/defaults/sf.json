@@ -1,0 +1,62 @@
+{
+	".sf": {
+		"&-imageView": {
+			"marginBottom": null,
+			"marginTop": null
+		},
+		"&-button": {
+			"marginBottom": null,
+			"marginTop": null
+		},
+		"&-page": {
+			"paddingBottom": null,
+			"paddingLeft": null,
+			"paddingRight": null,
+			"paddingTop": null
+		},
+		"&-listView": {
+			"backgroundColor": "rgba( 255, 255, 255, 0 )",
+			"marginBottom": null,
+			"marginTop": null
+		},
+		"&-statusBar": {
+			"android": {
+				"color": "rgba( 25, 206, 216, 1 )"
+			}
+		},
+		"&-headerBar": {
+			"backgroundColor": "rgba( 25, 206, 216, 1 )"
+		},
+		"&-activityIndicator": {
+			"color": "rgba( 255, 255, 255, 1 )",
+			"ios": {
+				"activityIndicatorViewStyle": "NORMAL"
+			}
+		},
+		"&-flexLayout": {
+			"marginBottom": null,
+			"marginTop": null
+		},
+		"&-scrollView": {
+			"marginBottom": null,
+			"marginTop": null,
+			"scrollBarEnabled": false
+		},
+		"&-label": {
+			"marginBottom": null,
+			"marginTop": null
+		},
+		"&-switch": {
+			"toggleOnColor": "rgba( 25, 206, 216, 1 )",
+			"android": {
+				"toggleOffColor": "rgba( 223, 227, 230, 1 )",
+				"thumbOffColor": "rgba(255, 255, 255, 1)"
+			},
+			"minWidth": 52,
+			"width": 52,
+			"+Device:Device.os === \"Android\"": {
+				"thumbOnColor": "rgba( 255, 255, 255, 1 )"
+			}
+		}
+	}
+}

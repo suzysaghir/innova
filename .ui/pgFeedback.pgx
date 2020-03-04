@@ -1,0 +1,138 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgFeedback",
+			"id": "eed5-26db-c878-64d7",
+			"initialized": true,
+			"props": {
+				"children": [
+					"15a1-db0f-ad66-2391",
+					"5e3b-7bc7-c411-66bb",
+					"1cd2-3bb2-083c-6f91",
+					"016e-223f-2aa8-6630",
+					"4ab0-3291-95bd-706a",
+					"0e5a-bdc6-7d26-b339"
+				],
+				"name": "pgFeedback",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "15a1-db0f-ad66-2391",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "eed5-26db-c878-64d7"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "5e3b-7bc7-c411-66bb",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "eed5-26db-c878-64d7"
+			},
+			"type": "HeaderBar",
+			"userProps": {}
+		},
+		{
+			"className": ".materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "1cd2-3bb2-083c-6f91",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbMail",
+				"parent": "eed5-26db-c878-64d7",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__modules__",
+				"moduleName": "Materialtextbox",
+				"modulePath": "materialtextbox",
+				"type": "Materialtextbox",
+				"id": "8fb2-10a8-12e4-9b45"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "016e-223f-2aa8-6630",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbMessage",
+				"parent": "eed5-26db-c878-64d7",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__modules__",
+				"moduleName": "Materialtextbox",
+				"modulePath": "materialtextbox",
+				"type": "Materialtextbox",
+				"id": "8fb2-10a8-12e4-9b45"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label #pgDeviceApplicationRestrictions-svMain-lblInfo #pgFeedback-lblLeft",
+			"id": "4ab0-3291-95bd-706a",
+			"props": {
+				"autoHeight": 20.27027027027027,
+				"autoWidth": 32.30574324324324,
+				"children": [],
+				"name": "lblLeft",
+				"parent": "eed5-26db-c878-64d7",
+				"text": "  500",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.27027027027027,
+				"autoWidth": 32.30574324324324,
+				"flexProps": {
+					"alignSelf": "FLEX_END",
+					"positionType": "RELATIVE"
+				},
+				"text": "  500",
+				"usePageVariable": true,
+				"width": 71
+			}
+		},
+		{
+			"className": ".sf-button #pgFeedback-btn",
+			"id": "0e5a-bdc6-7d26-b339",
+			"props": {
+				"autoHeight": 20.53291386571424,
+				"children": [],
+				"name": "btnSend",
+				"parent": "eed5-26db-c878-64d7",
+				"text": "button1",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 20.53291386571424,
+				"text": "button1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

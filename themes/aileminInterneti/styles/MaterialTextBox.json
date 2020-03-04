@@ -1,0 +1,42 @@
+{
+    ".materialTextBox": {
+        "ellipsizeMode": "END",
+        "textAlignment": "MIDLEFT",
+        "textColor": "#FFFFFF",
+        "errorColor": "rgba( 255,0,0,1 )",
+        "hintTextColor": "rgba( 25, 206, 216, 1 )",
+        "cursorColor": "#FFFFFF",
+        "selectedHintTextColor": "rgba( 25, 206, 216, 1 )",
+        "lineColor": {
+            "normal": "#FFFFFF",
+            "selected": "#FFFFFF"
+        },
+        "font": {
+            "size": 19,
+            "family": "SFProText",
+            "style": "Medium"
+        },
+        "&-labelsFont": {
+            "font": {
+                "size": 19,
+                "family": "SFProText",
+                "style": "Medium"
+            }
+        },
+        "&-hintFont": {
+            "font": {
+                "size": 19,
+                "family": "SFProText",
+                "style": "Medium"
+            }
+        },
+        ".feedback": {
+            "textColor": "rgba(101,101,101,1)",
+            "cursorColor": "rgba(101,101,101,1)",
+            "lineColor": {
+                "normal": "rgba(223, 227, 230, 1)",
+                "selected": "rgba(223, 227, 230, 1)"
+            }
+        }
+    }
+}

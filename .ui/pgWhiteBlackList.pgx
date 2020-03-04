@@ -1,0 +1,132 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgWhiteBlackList",
+			"id": "74c2-f680-4a08-91cb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"838c-730b-2c22-2bb2",
+					"5b80-7e0f-cde4-149d",
+					"d2a5-bc28-532b-6d7c"
+				],
+				"name": "pgWhiteBlackList",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "838c-730b-2c22-2bb2",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "74c2-f680-4a08-91cb"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "5b80-7e0f-cde4-149d",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "74c2-f680-4a08-91cb",
+				"title": "pgWhiteBlackList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgWhiteBlackList"
+			}
+		},
+		{
+			"className": ".sf-scrollView .grow-relative",
+			"id": "d2a5-bc28-532b-6d7c",
+			"props": {
+				"autoSizeEnabled": true,
+				"children": [
+					"5ac2-6c3f-f5bd-8f01",
+					"e277-456e-3e63-5050"
+				],
+				"name": "svMain",
+				"parent": "74c2-f680-4a08-91cb",
+				"usePageVariable": true
+			},
+			"type": "ScrollView",
+			"userProps": {
+				"autoSizeEnabled": true,
+				"scrollBarEnabled": false,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "5ac2-6c3f-f5bd-8f01",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbWebsite",
+				"parent": "d2a5-bc28-532b-6d7c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__modules__",
+				"moduleName": "Materialtextbox",
+				"modulePath": "materialtextbox",
+				"type": "Materialtextbox",
+				"id": "8fb2-10a8-12e4-9b45"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listView #pgWhiteBlackList-lvWebsites",
+			"id": "e277-456e-3e63-5050",
+			"props": {
+				"children": [
+					"b601-8970-34ca-0d9c"
+				],
+				"name": "lvWebsites",
+				"parent": "d2a5-bc28-532b-6d7c",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"height": null,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listViewItem .lviApplication",
+			"hiddenComponent": false,
+			"id": "b601-8970-34ca-0d9c",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "lviApplication",
+				"parent": "e277-456e-3e63-5050"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviApplication",
+				"id": "7e3c-8a19-cd1b-1d92"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		}
+	]
+}

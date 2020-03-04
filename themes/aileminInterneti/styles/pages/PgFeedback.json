@@ -1,0 +1,25 @@
+{
+	"#pgFeedback": {
+		"paddingTop": 25,
+		"paddingLeft": 20,
+		"paddingRight": 20,
+		"&-lblLeft": {
+			"textAlignment": "MIDRIGHT",
+			"width": 100,
+			"flexProps": {
+				"alignSelf": "FLEX_END"
+			},
+			"marginTop": 10,
+			"marginRight": 0
+		},
+		"&-btn": {
+			"backgroundColor": "rgba( 10, 182, 192, 1 )",
+			"bottom": 20,
+			"left": 20,
+			"right": 20,
+			"flexProps": {
+				"positionType": "ABSOLUTE"
+			}
+		}
+	}
+}

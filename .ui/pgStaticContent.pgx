@@ -1,0 +1,99 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "b629-b163-fe9c-52b0",
+			"initialized": true,
+			"props": {
+				"children": [
+					"ec04-f58a-c508-0d64",
+					"b084-d924-e2e2-f9f7",
+					"7866-3910-cd5e-b50d"
+				],
+				"name": "pgStaticContent",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "ec04-f58a-c508-0d64",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "b629-b163-fe9c-52b0"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "b084-d924-e2e2-f9f7",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "b629-b163-fe9c-52b0"
+			},
+			"type": "HeaderBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-scrollView .grow-relative",
+			"id": "7866-3910-cd5e-b50d",
+			"props": {
+				"children": [
+					"fa7f-42a1-0656-836e",
+					"a7f2-270a-f2b5-ca19"
+				],
+				"name": "svMain",
+				"parent": "b629-b163-fe9c-52b0",
+				"usePageVariable": true
+			},
+			"type": "ScrollView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label #pgStaticContent-title",
+			"id": "fa7f-42a1-0656-836e",
+			"props": {
+				"autoHeight": 21,
+				"children": [],
+				"name": "lblTitle",
+				"parent": "7866-3910-cd5e-b50d",
+				"text": "  label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 21,
+				"text": "  label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label #pgStaticContent-detail",
+			"id": "a7f2-270a-f2b5-ca19",
+			"props": {
+				"autoHeight": 21,
+				"children": [],
+				"name": "lblDetail",
+				"parent": "7866-3910-cd5e-b50d",
+				"text": "  label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 21,
+				"text": "  label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

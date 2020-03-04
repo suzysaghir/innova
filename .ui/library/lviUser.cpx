@@ -1,0 +1,180 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviUser",
+			"hiddenComponent": true,
+			"id": "b08e-a45e-72ec-8769",
+			"initialized": true,
+			"props": {
+				"children": [
+					"40f5-0325-882e-19cc",
+					"f608-1aba-159f-311c",
+					"4a79-7db6-1e7e-2062"
+				],
+				"name": "lviUser",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .lviUser-flMain",
+			"hiddenComponent": false,
+			"id": "40f5-0325-882e-19cc",
+			"props": {
+				"children": [
+					"954f-17df-4e9e-959d",
+					"aa83-e960-70c3-7fad",
+					"b55c-b02b-bba8-fb14"
+				],
+				"name": "flMain",
+				"parent": "b08e-a45e-72ec-8769"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .lviUser-flMain-imgProfile",
+			"id": "954f-17df-4e9e-959d",
+			"props": {
+				"children": [],
+				"name": "imgProfile",
+				"parent": "40f5-0325-882e-19cc",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"borderColor": "rgba( 0, 0, 0, 0 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .lviUser-flMain-lblDeviceName",
+			"id": "aa83-e960-70c3-7fad",
+			"props": {
+				"autoHeight": 21.875,
+				"children": [],
+				"name": "lblDeviceName",
+				"parent": "40f5-0325-882e-19cc",
+				"text": "Oğlumun Telefonu",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 21.875,
+				"text": "Oğlumun Telefonu",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .lviUser-flMain-lblMac",
+			"id": "b55c-b02b-bba8-fb14",
+			"props": {
+				"autoHeight": 18.75,
+				"children": [],
+				"name": "lblMac",
+				"parent": "40f5-0325-882e-19cc",
+				"text": "Mac:00:56:567.567:4:67:456",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 18.75,
+				"text": "Mac:00:56:567.567:4:67:456",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviUser-flDelete",
+			"hiddenComponent": false,
+			"id": "f608-1aba-159f-311c",
+			"props": {
+				"children": [
+					"9309-70cc-9e05-b725"
+				],
+				"name": "flDelete",
+				"parent": "b08e-a45e-72ec-8769",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .lviUser-flDelete-imgTrash",
+			"id": "9309-70cc-9e05-b725",
+			"props": {
+				"autoHeight": 23.52941176470588,
+				"children": [],
+				"name": "imgTrash",
+				"parent": "f608-1aba-159f-311c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 23.52941176470588,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviUser-flEdit",
+			"id": "4a79-7db6-1e7e-2062",
+			"props": {
+				"children": [
+					"7f62-2072-0c27-3e63"
+				],
+				"name": "flEdit",
+				"parent": "b08e-a45e-72ec-8769",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .lviUser-flEdit-imgEdit",
+			"id": "7f62-2072-0c27-3e63",
+			"props": {
+				"autoHeight": 17.647058823529413,
+				"children": [],
+				"name": "imgEdit",
+				"parent": "4a79-7db6-1e7e-2062",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 17.647058823529413,
+				"usePageVariable": true
+			}
+		}
+	]
+}

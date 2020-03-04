@@ -1,0 +1,83 @@
+{
+	".lviDeviceDetail": {
+		"flexProps": {},
+		"height": 110,
+		"&-flMain": {
+			"&-flLabel": {
+				"width": null,
+				"height": 30,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"alignItems": "CENTER",
+					"justifyContent": "FLEX_START"
+				},
+				"paddingLeft": 26,
+				"&-imgLabel": {
+					"width": 25,
+					"height": 25,
+					"image": "icon_apps.png",
+					"imageFillType": "ASPECTFIT",
+					"marginBottom": 0,
+					"marginTop": 0,
+					"marginLeft": 26
+				},
+				"&-lblSetting": {
+					"textColor": "rgba( 25, 206, 216, 1 )",
+					"marginLeft": 10,
+					"font": {
+						"size": 16
+					},
+					"ellipsizeMode": "END",
+					"width": null,
+					"height": null,
+					"flexProps": {
+						"flexGrow": 1
+					},
+					"marginRight": 30
+				},
+				"marginTop": null
+			},
+			"flexProps": {
+				"flexGrow": 1,
+				"alignContent": "FLEX_START",
+				"flexDirection": "ROW",
+				"alignItems": "CENTER"
+			},
+			"width": null,
+			"height": null,
+			"paddingTop": null,
+			"borderRadius": 10,
+			"backgroundColor": "rgba( 255, 255, 255, 1 )"
+		},
+		"backgroundColor": "rgba( 255, 255, 255, 0 )",
+		"&-imgArrow": {
+			"flexProps": {
+				"positionType": "RELATIVE",
+				"alignSelf": "CENTER"
+			},
+			"width": 9,
+			"height": 16,
+			"image": "arrowright_gray.png",
+			"imageFillType": "ASPECTFIT"
+		},
+		"paddingLeft": 16,
+		"paddingRight": 16,
+		"width": null,
+		"&-flArrow": {
+			"flexProps": {
+				"positionType": "ABSOLUTE",
+				"flexGrow": 1,
+				"alignSelf": "AUTO",
+				"flexDirection": "COLUMN",
+				"justifyContent": "CENTER"
+			},
+			"right": 0,
+			"top": 0,
+			"width": 35,
+			"paddingRight": 24,
+			"height": null,
+			"bottom": 0
+		},
+		"paddingTop": 16
+	}
+}

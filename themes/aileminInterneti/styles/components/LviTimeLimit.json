@@ -1,0 +1,85 @@
+{
+	".lviTimeLimit": {
+		"height": 70,
+		"paddingRight": 12,
+		"flexProps": {
+			"justifyContent": "FLEX_END",
+			"flexDirection": "ROW",
+			"alignItems": "CENTER"
+		},
+		"&-flTimeLimit": {
+			"width": 163,
+			"height": null,
+			"flexProps": {
+				"justifyContent": "SPACE_BETWEEN",
+				"flexDirection": "ROW",
+				"alignItems": "CENTER"
+			},
+			"paddingLeft": 9,
+			"paddingRight": 10,
+			"+Device:Device.os === \"Android\"": {
+				"paddingRight": null,
+				"width": 163
+			}
+		},
+		"&-lblDay": {
+			"textAlignment": "MIDRIGHT",
+			"textColor": "rgba( 101, 101, 101, 1 )",
+			"ellipsizeMode": "START",
+			"maxLines": 1,
+			".active": {
+				"textColor": "rgba( 25, 206, 216, 1 )"
+			}
+		},
+		"&-swTimeLimit": {
+			"flexProps": {
+				"alignSelf": "CENTER"
+			}
+		},
+		"&-flSwichWrapper": {
+			"flexProps": {
+				"justifyContent": "FLEX_END",
+				"flexDirection": "ROW"
+			}
+		},
+		"&-flTime": {
+			"borderRadius": 17,
+			"height": 34,
+			"width": 65,
+			"flexProps": {
+				"justifyContent": "CENTER",
+				"alignItems": "CENTER"
+			},
+			"borderWidth": 1,
+			"borderColor": "rgba( 101, 101, 101, 1 )",
+			".active": {
+				"borderColor": "rgba( 25, 206, 216, 1 )"
+			}
+		},
+		"&-flSeparator": {
+			"flexProps": {
+				"positionType": "ABSOLUTE"
+			},
+			"height": 1,
+			"width": null,
+			"left": 26,
+			"right": 0,
+			"backgroundColor": "rgba( 235, 239, 242, 1 )",
+			"top": 0
+		},
+		"backgroundColor": "rgba( 255, 255, 255, 0 )",
+		"&-timeSeparator": {
+			"height": 1,
+			"width": 4,
+			"backgroundColor": "rgba( 101, 101, 101, 1 )"
+		},
+		"&-lblTime": {
+			"textColor": "rgba( 101, 101, 101, 1 )",
+			"textAlignment": "MIDCENTER",
+			".active": {
+				"textColor": "rgba( 25, 206, 216, 1 )"
+			},
+			"width": 60
+		}
+	}
+}

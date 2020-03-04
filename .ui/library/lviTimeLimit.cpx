@@ -1,0 +1,222 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviTimeLimit",
+			"hiddenComponent": false,
+			"id": "c422-ef64-a72a-df93",
+			"initialized": true,
+			"props": {
+				"children": [
+					"d866-2f27-d7ca-88ba",
+					"8e49-a418-aa3d-39a0",
+					"1a8a-7752-2e44-0c13",
+					"1fee-6336-df6c-ad3d",
+					"44f7-46cb-0665-6578"
+				],
+				"name": "lviTimeLimit",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {},
+				"left": 16.949152542372882,
+				"top": 211.86440677966104
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .lviTimeLimit-lblDay",
+			"id": "d866-2f27-d7ca-88ba",
+			"props": {
+				"autoHeight": 20.5,
+				"autoWidth": 78.5390625,
+				"children": [],
+				"name": "lblDay",
+				"parent": "c422-ef64-a72a-df93",
+				"text": "Pazartesi",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.5,
+				"autoWidth": 78.5390625,
+				"text": "Pazartesi",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviTimeLimit-flTimeLimit",
+			"id": "8e49-a418-aa3d-39a0",
+			"props": {
+				"children": [
+					"424c-84d0-b50c-f73a",
+					"9000-eeb9-9598-0718",
+					"584e-7d01-a131-0b3e"
+				],
+				"name": "flTimeLimit",
+				"parent": "c422-ef64-a72a-df93"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .lviTimeLimit-flTime",
+			"id": "424c-84d0-b50c-f73a",
+			"props": {
+				"children": [
+					"f64f-859f-1531-979f"
+				],
+				"name": "flStartTime",
+				"parent": "8e49-a418-aa3d-39a0",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .lviTimeLimit-lblTime",
+			"id": "f64f-859f-1531-979f",
+			"props": {
+				"autoHeight": 20.8955223880597,
+				"autoWidth": 49.16044776119403,
+				"children": [],
+				"name": "lblStartTime",
+				"parent": "424c-84d0-b50c-f73a",
+				"text": "13:00",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.8955223880597,
+				"autoWidth": 49.16044776119403,
+				"text": "13:00",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviTimeLimit-timeSeparator",
+			"id": "9000-eeb9-9598-0718",
+			"props": {
+				"children": [],
+				"name": "flTimeSeparator",
+				"parent": "8e49-a418-aa3d-39a0"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .lviTimeLimit-flTime",
+			"id": "584e-7d01-a131-0b3e",
+			"props": {
+				"children": [
+					"04bc-af6a-37a0-5cf8"
+				],
+				"name": "flEndTime",
+				"parent": "8e49-a418-aa3d-39a0",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .lviTimeLimit-lblTime",
+			"id": "04bc-af6a-37a0-5cf8",
+			"props": {
+				"autoHeight": 20.8955223880597,
+				"autoWidth": 49.16044776119403,
+				"children": [],
+				"name": "lblEndTime",
+				"parent": "584e-7d01-a131-0b3e",
+				"text": "15:00",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.8955223880597,
+				"autoWidth": 49.16044776119403,
+				"text": "15:00",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-switch .lviTimeLimit-swTimeLimit",
+			"id": "1a8a-7752-2e44-0c13",
+			"props": {
+				"children": [],
+				"name": "swTimeLimit",
+				"parent": "c422-ef64-a72a-df93",
+				"toggle": false,
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Switch",
+			"userProps": {
+				"toggle": false,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviTimeLimit-flSeparator",
+			"id": "1fee-6336-df6c-ad3d",
+			"props": {
+				"children": [],
+				"name": "flSeparator",
+				"parent": "c422-ef64-a72a-df93",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .switch .switch-overLayout",
+			"id": "44f7-46cb-0665-6578",
+			"props": {
+				"children": [],
+				"name": "flSwitch",
+				"parent": "c422-ef64-a72a-df93",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

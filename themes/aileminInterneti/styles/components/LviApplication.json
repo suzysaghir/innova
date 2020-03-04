@@ -1,0 +1,46 @@
+{
+	".lviApplication": {
+		"backgroundColor": "rgba( 255, 255, 255, 0 )",
+		"flexProps": {
+			"alignItems": "CENTER",
+			"flexDirection": "ROW"
+		},
+		"height": 78,
+		"paddingLeft": 24,
+		"paddingRight": 12,
+		"&-imgIcon": {
+			"borderRadius": 20,
+			"height": 40,
+			"width": 40,
+			"imageFillType": "ASPECTFIT",
+			".small": {
+				"height": 25,
+				"width": 25,
+				"borderRadius": 0,
+				"image": "icon_trash.png"
+			}
+		},
+		"&-lblApp": {
+			"font": {
+				"family": "SFProText",
+				"style": "Medium",
+				"bold": false,
+				"italic": false,
+				"size": 17
+			},
+			"marginLeft": 19,
+			"textColor": "rgba( 101, 101, 101, 1 )",
+			"flexProps": {
+				"flexGrow": 1
+			}
+		},
+		"&-swStatus": {
+			"flexProps": {
+				"alignSelf": "AUTO",
+				"positionType": "ABSOLUTE"
+			},
+			"right": 12,
+			"width": null
+		}
+	}
+}
