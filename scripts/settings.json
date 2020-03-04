@@ -4,9 +4,9 @@
 			"currentTheme": "aileminInterneti",
 			"baseTheme": "baseTheme",
 			"themes": [
-				"aileminInterneti",
+				"defaultTheme",
 				"baseTheme",
-				"defaultTheme"
+				"aileminInterneti"
 			]
 		},
 		"paths": {
